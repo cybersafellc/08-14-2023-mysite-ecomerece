@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <!-- my styles start -->
+    <link rel="stylesheet" href="styles/style.css" />
+    <!-- my styles end -->
+    <!-- google fonts start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet" />
+    <!-- google fonts end -->
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg py-md-4 shadow-sm mb-1">
+      <div class="container">
+        <a class="navbar-brand fs-2 text-metcalica" href="#">Sircloth</a>
+        <button
+          class="navbar-toggler border-0 focus-ring focus-ring-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <div class="humberger-menu">
+            <input type="checkbox" name="" id="" />
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex gap-4 justify-content-center justify-content-md-center align-items-center align-items-md-center">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+                ><div class="margin-bottom"></div>
+                Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#"
+                ><div class="margin-bottom"></div>
+                Shop</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="../about.html" class="nav-link"
+                ><div class="margin-bottom"></div>
+                About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link"
+                ><div class="margin-bottom"></div>
+                Contact</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link"
+                ><div class="margin-bottom"></div>
+                Resaller</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- main start -->
+    <section class="py-5">
+      <div class="container p-0">
+        <div class="row p-0 m-0">
+          <div class="col-md-12 m-0">
+            <span class="d-flex align-items-center mb-4"><i class="bx bxs-home fs-6 me-1"></i>Home <i class="bx bx-chevron-right fs-5 fw-light mt-1"></i> <span class="text-secondary">Shop</span></span>
+          </div>
+        </div>
+        <div class="row p-0 m-0">
+          <div class="col-md-3 m-0">
+            <div class="col-md-12 m-0">
+              <h1 id="new-product-heading" class="fs-3 fw-normal mb-4 mb-md-0 text-uppercase fs-4">Categories</h1>
+            </div>
+            <div class="col-md-12 m-0">
+              <ul class="ul d-flex justify-content-between flex-md-column p-0 pt-md-5 mb-5 mb-md-0 gap-3">
+                <li><a id="all-tshirts" class="border-bottom border-2 border-danger py-1">All</a></li>
+                <li><a id="toggle-tshirts" class="py-1 border-danger border-2">T-shirts</a></li>
+                <li><a id="toogle-hoodies" class="py-1 border-danger border-2">Hoodies</a></li>
+                <li><a id="toogle-footwares" class="py-1 border-danger border-2">Footwears</a></li>
+                <li><a id="toggle-pants" class="py-1 border-danger border-2">Pants</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- idupin col-md-9 ke-2 diabawah ini lalu pindahin image notfound ke dalam col-md-9 dibawah, lalu hapusin # lalu kasi d-none pada notfound -->
+          <div class="col-md-9 m-0">
+            <div class="notfound# notfound-item-on-page">
+              <img src="assets/img/saerch-notfounf.avif" alt="" />
+            </div>
+          </div>
+          <div class="col-md-9 m-0 d-none">
+            <div class="container-fluid p-0 m-0">
+              <div class="row p-0 mb-md-4">
+                <div id="tshirts-item1" class="col-md-3 col-6 mb-5 mb-md-0 d-flex justify-content-center">
+                  <div id="card-items" class="card border-0 rounded-0">
+                    <div class="card-headers">
+                      <div class="tag-new">NEW</div>
+                      <img src="assets/img/new-product/item-1.png" alt="" />
+                      <div class="sampul-image">
+                        <a class="sampul-icon-resize" href="#">
+                          <div class="resize-icon">
+                            <i class="bx bx-left-arrow-alt"></i>
+                            <i class="bx bx-right-arrow-alt"></i>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="card-content d-flex flex-column align-items-center">
+                      <p class="text-center text-dark my-2 fw-light">T-shirt Hotman Paris</p>
+                      <div class="mb-2">
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-secondary"></i>
+                      </div>
+                      <div class="mb-0">
+                        <span id="discount" class="text-decoration-none bg-danger bg-opacity-25 rounded me-2 p-1 fw-bold text-danger">-95%</span
+                        ><span class="fw-normal text-secondary text-opacity-75 text-decoration-line-through">Rp280.000</span>
+                      </div>
+                      <p class="fw-bold text-dark text-opacity-75 text-decoration-none">Rp79.500</p>
+                    </div>
+                  </div>
+                </div>
+                <div id="tshirts-item2" class="col-md-3 col-6 mb-5 mb-md-0 d-flex justify-content-center">
+                  <div id="card-items" class="card border-0 rounded-0">
+                    <div class="card-headers">
+                      <div class="tag-out-of-stock">OUT OF STOCK</div>
+                      <img src="assets/img/new-product/item-1.png" alt="" />
+                      <div class="sampul-image">
+                        <a class="sampul-icon-resize" href="#">
+                          <div class="resize-icon">
+                            <i class="bx bx-left-arrow-alt"></i>
+                            <i class="bx bx-right-arrow-alt"></i>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="card-content d-flex flex-column align-items-center">
+                      <p class="text-center text-dark my-2 fw-light">T-shirt Hotman Paris</p>
+                      <div class="mb-2">
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-secondary"></i>
+                      </div>
+                      <div class="mb-0">
+                        <span id="discount" class="text-decoration-none bg-danger bg-opacity-25 rounded me-2 p-1 fw-bold text-danger">-95%</span
+                        ><span class="fw-normal text-secondary text-opacity-75 text-decoration-line-through">Rp280.000</span>
+                      </div>
+                      <p class="fw-bold text-dark text-opacity-75 text-decoration-none">Rp79.500</p>
+                    </div>
+                  </div>
+                </div>
+                <div id="tshirts-item3" class="col-md-3 col-6 mb-5 mb-md-0 d-flex justify-content-center">
+                  <div id="card-items" class="card border-0 rounded-0">
+                    <div class="card-headers">
+                      <!-- <div class="tag-new">NEW</div> -->
+                      <img src="assets/img/new-product/item-1.png" alt="" />
+                      <div class="sampul-image">
+                        <a class="sampul-icon-resize" href="#">
+                          <div class="resize-icon">
+                            <i class="bx bx-left-arrow-alt"></i>
+                            <i class="bx bx-right-arrow-alt"></i>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="card-content d-flex flex-column align-items-center">
+                      <p class="text-center text-dark my-2 fw-light">T-shirt Hotman Paris</p>
+                      <div class="mb-2">
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-secondary"></i>
+                      </div>
+                      <div class="mb-0">
+                        <span id="discount" class="text-decoration-none bg-danger bg-opacity-25 rounded me-2 p-1 fw-bold text-danger">-95%</span
+                        ><span class="fw-normal text-secondary text-opacity-75 text-decoration-line-through">Rp280.000</span>
+                      </div>
+                      <p class="fw-bold text-dark text-opacity-75 text-decoration-none">Rp79.500</p>
+                    </div>
+                  </div>
+                </div>
+                <div id="tshirts-item4" class="col-md-3 col-6 mb-5 mb-md-0 d-flex justify-content-center">
+                  <div id="card-items" class="card border-0 rounded-0">
+                    <div class="card-headers">
+                      <!-- <div class="tag-new">NEW</div> -->
+                      <img src="assets/img/new-product/item-1.png" alt="" />
+                      <div class="sampul-image">
+                        <a class="sampul-icon-resize" href="#">
+                          <div class="resize-icon">
+                            <i class="bx bx-left-arrow-alt"></i>
+                            <i class="bx bx-right-arrow-alt"></i>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="card-content d-flex flex-column align-items-center">
+                      <p class="text-center text-dark my-2 fw-light">T-shirt Hotman Paris</p>
+                      <div class="mb-2">
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-secondary"></i>
+                      </div>
+                      <div class="mb-0">
+                        <span id="discount" class="text-decoration-none bg-danger bg-opacity-25 rounded me-2 p-1 fw-bold text-danger">-95%</span
+                        ><span class="fw-normal text-secondary text-opacity-75 text-decoration-line-through">Rp280.000</span>
+                      </div>
+                      <p class="fw-bold text-dark text-opacity-75 text-decoration-none">Rp79.500</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row p-0 mb-md-4">
+                <div id="hoodies-item1" class="col-md-3 col-6 mb-5 mb-md-0 d-flex justify-content-center">
+                  <div id="card-items" class="card border-0 rounded-0">
+                    <div class="card-headers">
+                      <div class="tag-new">NEW</div>
+                      <img src="assets/img/new-product/item-1.png" alt="" />
+                      <div class="sampul-image">
+                        <a class="sampul-icon-resize" href="#">
+                          <div class="resize-icon">
+                            <i class="bx bx-left-arrow-alt"></i>
+                            <i class="bx bx-right-arrow-alt"></i>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="card-content d-flex flex-column align-items-center">
+                      <p class="text-center text-dark my-2 fw-light">T-shirt Hotman Paris</p>
+                      <div class="mb-2">
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-secondary"></i>
+                      </div>
+                      <div class="mb-0">
+                        <span id="discount" class="text-decoration-none bg-danger bg-opacity-25 rounded me-2 p-1 fw-bold text-danger">-95%</span
+                        ><span class="fw-normal text-secondary text-opacity-75 text-decoration-line-through">Rp280.000</span>
+                      </div>
+                      <p class="fw-bold text-dark text-opacity-75 text-decoration-none">Rp79.500</p>
+                    </div>
+                  </div>
+                </div>
+                <div id="hoodies-item2" class="col-md-3 col-6 mb-5 mb-md-0 d-flex justify-content-center">
+                  <div id="card-items" class="card border-0 rounded-0">
+                    <div class="card-headers">
+                      <div class="tag-out-of-stock">OUT OF STOCK</div>
+                      <img src="assets/img/new-product/item-1.png" alt="" />
+                      <div class="sampul-image">
+                        <a class="sampul-icon-resize" href="#">
+                          <div class="resize-icon">
+                            <i class="bx bx-left-arrow-alt"></i>
+                            <i class="bx bx-right-arrow-alt"></i>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="card-content d-flex flex-column align-items-center">
+                      <p class="text-center text-dark my-2 fw-light">T-shirt Hotman Paris</p>
+                      <div class="mb-2">
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-secondary"></i>
+                      </div>
+                      <div class="mb-0">
+                        <span id="discount" class="text-decoration-none bg-danger bg-opacity-25 rounded me-2 p-1 fw-bold text-danger">-95%</span
+                        ><span class="fw-normal text-secondary text-opacity-75 text-decoration-line-through">Rp280.000</span>
+                      </div>
+                      <p class="fw-bold text-dark text-opacity-75 text-decoration-none">Rp79.500</p>
+                    </div>
+                  </div>
+                </div>
+                <div id="hoodies-item3" class="col-md-3 col-6 mb-5 mb-md-0 d-flex justify-content-center">
+                  <div id="card-items" class="card border-0 rounded-0">
+                    <div class="card-headers">
+                      <!-- <div class="tag-new">NEW</div> -->
+                      <img src="assets/img/new-product/item-1.png" alt="" />
+                      <div class="sampul-image">
+                        <a class="sampul-icon-resize" href="#">
+                          <div class="resize-icon">
+                            <i class="bx bx-left-arrow-alt"></i>
+                            <i class="bx bx-right-arrow-alt"></i>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="card-content d-flex flex-column align-items-center">
+                      <p class="text-center text-dark my-2 fw-light">T-shirt Hotman Paris</p>
+                      <div class="mb-2">
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-secondary"></i>
+                      </div>
+                      <div class="mb-0">
+                        <span id="discount" class="text-decoration-none bg-danger bg-opacity-25 rounded me-2 p-1 fw-bold text-danger">-95%</span
+                        ><span class="fw-normal text-secondary text-opacity-75 text-decoration-line-through">Rp280.000</span>
+                      </div>
+                      <p class="fw-bold text-dark text-opacity-75 text-decoration-none">Rp79.500</p>
+                    </div>
+                  </div>
+                </div>
+                <div id="footwears-item1" class="col-md-3 col-6 mb-5 mb-md-0 d-flex justify-content-center">
+                  <div id="card-items" class="card border-0 rounded-0">
+                    <div class="card-headers">
+                      <!-- <div class="tag-new">NEW</div> -->
+                      <img src="assets/img/new-product/item-1.png" alt="" />
+                      <div class="sampul-image">
+                        <a class="sampul-icon-resize" href="#">
+                          <div class="resize-icon">
+                            <i class="bx bx-left-arrow-alt"></i>
+                            <i class="bx bx-right-arrow-alt"></i>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="card-content d-flex flex-column align-items-center">
+                      <p class="text-center text-dark my-2 fw-light">T-shirt Hotman Paris</p>
+                      <div class="mb-2">
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-warning"></i>
+                        <i class="bx bxs-star text-secondary"></i>
+                      </div>
+                      <div class="mb-0">
+                        <span id="discount" class="text-decoration-none bg-danger bg-opacity-25 rounded me-2 p-1 fw-bold text-danger">-95%</span
+                        ><span class="fw-normal text-secondary text-opacity-75 text-decoration-line-through">Rp280.000</span>
+                      </div>
+                      <p class="fw-bold text-dark text-opacity-75 text-decoration-none">Rp79.500</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="notfound d-none">
+                <img src="assets/img/saerch-notfounf.avif" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row p-0 m-0">
+          <nav aria-label="Page navigation example" class="d-flex justify-content-end align-items-center px-4">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link text-dark focus-ring focus-ring-light" href="/shop/shop-page-1.html">1</a></li>
+              <li class="page-item"><a class="page-link text-dark focus-ring focus-ring-light" href="/shop/shop-page-2.html">2</a></li>
+              <li class="page-item"><a class="page-link text-dark focus-ring focus-ring-light bg-dark text-white" href="/shop/shop-page-3.html">3</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </section>
+    <!-- main end -->
+    <!-- footer start -->
+    <footer class="border-top py-5 pb-4">
+      <div class="container">
+        <div class="row p-0 m-0 g-5">
+          <div class="col-md-4 m-0 mb-5 mb-md-0">
+            <a class="navbar-brand fs-2 text-metcalica" href="#">Sircloth</a>
+            <p class="fw-light text-secondary py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt cilisis.</p>
+          </div>
+          <div class="col-md-4 m-0 d-flex flex-column gap-2 mb-5 mb-md-0">
+            <p class="fs-5">QUICK LINKS</p>
+            <a href="/shop.html" class="fw-light text-decoration-none text-dark">Shop</a>
+            <a href="../about.html" class="fw-light text-decoration-none text-dark">About</a>
+            <a href="" class="fw-light text-decoration-none text-dark">Contact</a>
+            <a href="" class="fw-light text-decoration-none text-dark">Reseller</a>
+          </div>
+          <div class="col-md-4 m-0">
+            <p class="fs-5">NEWSLETTER</p>
+            <div class="input-group mt-4 mb-3">
+              <input type="text" class="form-control focus-ring focus-ring-dark border-secondary" placeholder="Email address" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+              <span class="input-group-text bg-dark" id="basic-addon2"><button class="btn text-white fw-bold border-dark">Subscribe</button></span>
+            </div>
+          </div>
+        </div>
+        <div class="row p-0 m-0 g-5">
+          <div class="col-md-12">
+            <hr />
+            <p class="m-0 p-0 text-center text-secondary fs-6">Copyright © 2023 All rights reserved | This template is made with by <a href="" class="text-decoration-none text-secondary">Rusnanda Purnama</a></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
